@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schemas.premid.app/metadata/1.12",
+	"apiVersion": 1,
+	"author": {
+		"id": "100077976342790144",
+		"name": "slicedbread1"
+	},
+	"service": "moviebox",
+	"description": {
+		"en": "A walled garden of your favorite movies & shows"
+	},
+	"url": "movieboxpro.app",
+	"regExp": "(www[.])?(movieboxpro[.]app)",
+	"version": "1.1.0",
+	"logo": "https://cdn.rcd.gg/PreMiD/websites/M/movieboxpro/assets/logo.png",
+	"thumbnail": "https://cdn.rcd.gg/PreMiD/websites/M/movieboxpro/assets/thumbnail.png",
+	"color": "#ffdd45",
+	"category": "videos",
+	"tags": [
+		"movies",
+		"shows",
+		"anime",
+		"streaming",
+		"movieboxpro"
+	],
+	"settings": [
+		{
+			"id": "timestamp",
+			"title": "Show Timestamp",
+			"icon": "fad fa-timer",
+			"value": true
+		},
+		{
+			"id": "showLabel",
+			"if": {
+				"progress": true
+			},
+			"title": "Show Label",
+			"value": true
+		}
+	]
+}
